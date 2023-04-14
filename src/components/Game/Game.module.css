@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #6a5be2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .polotno {
+    background-color: #d4e25b;
+    padding: 30px;
+    border-radius: 6%;
+  }
+
+  .App {
+    width: 500px;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+
+  }
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+  }
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+li:hover {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: aqua;
+    }
+
